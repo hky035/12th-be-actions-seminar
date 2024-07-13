@@ -24,6 +24,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("api/v1/auth")
 @RequiredArgsConstructor(access = AccessLevel.PROTECTED)
 public class AuthController {
+    // cicd 테스트용 주석 추가
     private final AuthService authService;
 
     @PostMapping("/signin")
